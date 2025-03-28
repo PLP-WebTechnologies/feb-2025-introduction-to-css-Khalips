@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structured HTML5 Document</title>
+    <link rel="styleSheet" href="styles.css">
+</head>
+<body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9QGphNefk6YXVefAGZobyQsogi2639M9ejw&s">
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <fieldset id="login_info" class="field">
+            <legend>Login Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+                
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+            <br><br>
+        </fieldset>
+
+        <fieldset id="personal_info" class="field">
+            <legend>Personal Information</legend>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+                
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required> <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required> <label for="female">Female</label>
+            <br><br>
+                
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Egypt">Egypt</option>
+            </select>
+            <br><br>
+                
+            <label>Interests:</label>
+            <input type="checkbox" id="sports" name="interests" value="sports"> <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="interests" value="music"> <label for="music">Music</label>
+            <input type="checkbox" id="reading" name="interests" value="reading"> <label for="reading">Reading</label>
+            <br><br>
+        </fieldset>
+
+        <button type="submit" id="submitButton">Register</button>
+    </form>
+</body>
+</html>

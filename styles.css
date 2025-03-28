@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(31, 134, 134);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#submitButton {
+    background-color: rgb(49, 49, 179);
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.field {
+    border: 3px solid;
+    padding: 10px;
+    width: 80%;
+    margin-left: 150px;
+}
+
+#login_info {
+    margin-top: 20px;
+}
+
+#personal_info {
+    margin-top: 10px;
+}
+
+#name, #email, #password, #dob, #country {
+    background-color: rgb(179, 247, 224);
+    padding: 6px;
+    color: black;
+    border-radius: 6px;
+}
+
+img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
